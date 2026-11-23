@@ -9,7 +9,7 @@ Reset d'estils + bordes per tenir control desde 0 just al inici.
 }
 
 /*Cos general. Color gris però molt clar per poder donar millor contrast.
-Flexbox per main i aside en fila i repartirse ells tot léspai.*/
+Flexbox per main i aside en fila i repartirse ells tot l'espai.*/
 body{
     background-color: #f4f4f4;  
     display: flex;              
