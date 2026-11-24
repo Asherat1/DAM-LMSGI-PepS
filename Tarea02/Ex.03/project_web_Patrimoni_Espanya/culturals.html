@@ -1,12 +1,83 @@
-/*Taula de béns culturals (amb <caption>, <thead>, <tbody>, <tfoot>).*/
-
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ca">
 
 <head>
-    <meta charset="UTFD-8">
-    <title>BÉNS CULTURALS - Patrimoni de la humanitat</title>
-    <link rel="stylesheet" href="estil.css">
+<!--Taula de béns culturals (amb <caption>, <thead>, <tbody>, <tfoot>).-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taula de béns culturals del patrimoni de la humanitat a Espanya">
+    <title>BÉNS CULTURALS - Patrimoni de la humanitat a Espanya</title>
+    <link rel="stylesheet" href="css/estil.css">
+    <link rel="icon" href="recursos/img/favicon.png">
 </head>
 
+<body>
+    <header>
+        <h1>Patrimoni de la humanitat a Espanya</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">INICI</a></li>
+                <li><a href="culturals.html" aria-current="page">BÉNS CULTURALS</a></li>
+                <li><a href="naturals.html">BÉNS NATURALS</a></li>
+                <li><a href="recursos.html">RECURSOS I ENLLAÇOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>BÉNS CULTURALS</h2>
+            <table>
+               <caption>Taula de béns culturals</caption>
+               <thead>
+                    <tr>
+                       <th>Nom</th>
+                       <th>Comunitat</th>
+                       <th>Any de declaració</th> 
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                        <td>Coves d'Altamira</td>
+                        <td>Cantàbria</td>
+                        <td>1985</td>
+                    </tr>
+                    <tr>
+                        <td>Alhambra de Granada</td>
+                        <td>Andalusia</td>
+                        <td>1984</td>
+                    </tr>
+                    <tr>
+                        <td>Camí de Santiago</td>
+                        <td>Galícia</td>
+                        <td>1993</td>
+                    </tr>
+                    <tr>
+                        <td>Barri Gòtic</td>
+                        <td>Catalunya</td>
+                        <td>1984</td>
+                    </tr>
+                    <tr>
+                        <td>Llotja de la Seda</td>
+                        <td>País Valencià</td>
+                        <td>1996</td>
+                    </tr>
+                    <tr>
+                        <td>Ruta de la Plata</td>
+                        <td>Diverses CCAA</td>
+                        <td>Pendent</td>
+                    </tr>
+               </tbody>
+               <tfoot>
+                    <tr>
+                        <td colspan="3">Font: UNESCO</td>
+                    </tr>
+               </tfoot> 
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Patrimoni de la Humanitat a Espanya | Fet per Pep Simó</p>
+    </footer>
+</body>
 </html>
