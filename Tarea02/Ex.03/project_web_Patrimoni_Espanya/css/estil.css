@@ -1,6 +1,135 @@
-/*Reset bàsic.*/
 
-* {
-  margin: 0;
-  padding: 0;
+/* 1. Estils generals.*/
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222222;
+  margin: 0; 
 }
+
+a{
+  color:rgb(53, 53, 104);
+}
+
+a:hover{
+  color:rgb(19, 169, 255); 
+}
+
+/* 2. Capçalera i navegació. */
+header{
+  background-color: rgb(56, 56, 143);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1{
+  margin-top: 0;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  color: aquamarine;
+}
+
+/* 3. Contingut principal. */
+main {
+   width: 80%;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: white;
+   box-shadow: 0 2px 8px #cccccc;
+}
+
+h2 {
+    color: rgb(56, 56, 143);
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 5px;
+}
+
+/* 4. Taula i recursos. */
+/* Cita de la UNESCO (index.html) */
+blockquote {
+  background-color: #f4f4f4;
+  border-left: 4px solid rgb(216, 162, 47);
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Taula de béns culturals (culturals.html) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: rgb(56, 56, 143);
+  color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tfoot td{
+  background-color: #f4f4f4;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Imatges de béns naturals (naturals.html) */
+figure {
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+
+figure img {
+  width: 65%;
+  box-shadow: 0 2px 8px #cccccc;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555555;
+  margin-top: 5px;
+}
+
+/* Vídeo (recursos.html) */
+video {
+  width: 70%;
+  margin-top: 20px;
+}
+
+
+/* 5. Peu de pàgina. */
+footer {
+    background-color: rgb(56, 56, 143);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
