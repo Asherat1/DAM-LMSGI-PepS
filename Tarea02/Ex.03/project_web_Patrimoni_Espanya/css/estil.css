@@ -1,5 +1,5 @@
 
-/* 1. Estils generals.*/
+/*1. Estils generals.*/
 body{
   font-family:Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
@@ -15,7 +15,7 @@ a:hover{
   color:rgb(19, 169, 255); 
 }
 
-/* 2. Capçalera i navegació. */
+/*2. Capçalera i navegació.*/
 header{
   background-color: rgb(56, 56, 143);
   color: white;
@@ -26,7 +26,7 @@ header{
 header h1{
   margin-top: 0;
 }
-
+/*Menú horitzontal centrat amb Flexbox.*/
 nav ul{
   list-style: none;
   padding: 0;
@@ -46,20 +46,23 @@ nav a:hover {
   color: aquamarine;
 }
 
-/* 3. Contingut principal. */
+/*3. Contingut principal.*/
+/*Contenidor central centrat horitzontal amb sombra.*/
 main {
    width: 80%;
    margin: 10px auto;
    padding: 20px;
    background-color: white;
-   box-shadow: 0 2px 8px #cccccc;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+/*Centrat sense vinyetes.*/
 main ul {
   list-style: none;
   padding: 0;
 }
 
+/*Títols centrats a la foto i resaltats.*/
 main li p {
   text-align: center;
   font-weight: bold;
@@ -72,8 +75,8 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* 4. Taula i recursos. */
-/* Cita de la UNESCO (index.html) */
+/*4. Taula i recursos.*/
+/*Cita de la UNESCO (index.html).*/
 blockquote {
   background-color: #f4f4f4;
   border-left: 4px solid rgb(216, 162, 47);
@@ -82,7 +85,8 @@ blockquote {
   font-style: italic;
 }
 
-/* Taula de béns culturals (culturals.html) */
+/*Taula de béns culturals (culturals.html).*/
+/*Borders unificat i amplada sencera per a la taula.*/
 table {
   width: 100%;
   border-collapse: collapse;
@@ -105,13 +109,13 @@ th, td {
   padding: 10px;
   text-align: left;
 }
-
+/*Cel·la final centrada.*/
 tfoot td {
   font-size: 14px;
   text-align: center;
 }
 
-/* Imatges de béns naturals (naturals.html) */
+/*Imatges de béns naturals (naturals.html).*/
 figure {
   margin: 10px 0 25px 0;
   text-align: center;
@@ -128,14 +132,14 @@ figcaption {
   margin-top: 5px;
 }
 
-/* Vídeo (recursos.html) */
+/*Vídeo (recursos.html).*/
 video {
   width: 70%;
   margin-top: 20px;
 }
 
 
-/* 5. Peu de pàgina. */
+/*5. Peu de pàgina.*/
 footer {
     background-color: rgb(56, 56, 143);
     color: white;
