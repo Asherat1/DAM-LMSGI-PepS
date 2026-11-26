@@ -49,15 +49,26 @@ nav a:hover {
 /* 3. Contingut principal. */
 main {
    width: 80%;
-   margin: 20px auto;
+   margin: 10px auto;
    padding: 20px;
    background-color: white;
    box-shadow: 0 2px 8px #cccccc;
 }
 
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main li p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 h2 {
     color: rgb(56, 56, 143);
-    border-bottom: 2px solid #d4a373;
+    border-bottom: 2px solid rgb(216, 162, 47);
     padding-bottom: 5px;
 }
 
@@ -81,6 +92,7 @@ table {
 caption {
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 thead {
@@ -94,8 +106,7 @@ th, td {
   text-align: left;
 }
 
-tfoot td{
-  background-color: #f4f4f4;
+tfoot td {
   font-size: 14px;
   text-align: center;
 }
@@ -108,7 +119,7 @@ figure {
 
 figure img {
   width: 65%;
-  box-shadow: 0 2px 8px #cccccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 figcaption {
